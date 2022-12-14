@@ -1,16 +1,12 @@
-# Git Clone
-
-`git clone https://github.com/nigel-sys/Blockchain_Project.git`
-
-# Add .env file from the zip file
-
-Include the .env file from the code zip
-
 # Docker pull
 
 `docker pull nigieuno/x21179158:blockchain`
 
-## Run the curl command
+# Run the image
+
+`docker run -p 8090:8080 nigieuno/x21179158:blockchain`
+
+# Run the curl command on another terminal
 
 ETH Transfer:
 
